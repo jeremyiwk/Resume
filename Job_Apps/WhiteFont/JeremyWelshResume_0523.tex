@@ -1,0 +1,185 @@
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt} \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3  &  #4 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={$\diamond$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Jeremy Welsh}}\\ 
+Email : \href{mailto:jeremy@micromelody.net}{jeremy@micromelody.net} & Linkedin: \href{http://www.linkedin.com/in/jeremy-welsh}{www.linkedin.com/in/jeremy-welsh}  \\
+Mobile : +1 (503) 890-1543  & Github: \href{https://github.com/jeremyiwk}{github.com/jeremyiwk}
+\end{tabular*}
+
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming Languages}{Python, Fortran, C++, C, R, SQL, MATLAB, Julia, Shell
+scripting (Unix/macOS), Mathematica}
+	\resumeSubItem{Frameworks}{NumPy, Pandas, SciPy, Scikit-Learn, TensorFlow, OpenCV, PyMC, Matplotlib, Numba, ggplot2}
+	\resumeSubItem{Software \& Tools}{Git, Docker, General Particle Tracer (GPT), GROMACS, LAMMPS, PyMol, \textcolor{white}{easily}}
+	
+\resumeSubHeadingListEnd 
+
+%
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Senior Intern}{Jun 2022 – Present}{Thermo Fisher Scientific}{Hillsboro, OR}
+    
+    \begin{itemize}[label={$\diamond$}]
+    \itemsep0em %{description} [font=$\bullet$]
+    	\item {Wrote Python scripts to automate milling and imaging procedures on dual-beam scanning electron microscope systems.}
+	
+	\item {Performed image registration on ion beam images using cross-correlation and a TensorFlow convolutional neural network to detect $\sim$100nm machining tolerances in ion column components.}
+	
+	\item {Developed Python code to measure optical aberrations in ion beam images using computer vision tools from OpenCV and Skimage.}
+	
+	\item {Wrote custom ion column elements in C for ion column simulations using GPT simulation software.}
+	
+	\item {Contributed to scientific software (Python) for parallelizing GPT simulations and processing data in a Linux HPC environment.}
+	
+	\item {Developed algorithms for regression of sparse simulation data to optimize novel ion column designs, resulting in up to 300\% improvement in ion beam performance.}
+	
+	\item {Used Python libraries such as NumPy, SciPy, Pandas, Matplotlib, and Seaborn for data analysis, visualization, and presentation to a team of scientists in order to direct critical decisions about experimental design.}
+	
+	\end{itemize} %{description}
+      
+    \resumeSubheading
+		{Graduate Research Assistant}{Sep 2020 – Jun 2022}
+		{University of Oregon}{Eugene, OR}
+	\begin{itemize}[label={$\diamond$}]
+	\itemsep0em  %{description} [font=$\bullet$]
+	
+	\item{Developed theoretical models for organic macromolecules at multiple
+resolutions using mathematical tools from non-equilibrium statistical mechanics.}
+
+	\item{Validated theoretical models against experimental data using molecular dynamics and Monte Carlo simulation data.}
+	
+		\item{Mentored undergraduate and graduate research assistants on projects related
+to molecular coarse-graining schemes and simulation data analysis}
+	
+	\item{Performed and analyzed molecular dynamics simulations using GROMACS and LAMMPS molecular dynamics software on HPC clusters at San Diego Supercomputer Center.}
+	
+	\item{Characterized performance and the degree of parallelism of molecular dynamics simulations to determine computational resources requirement on 128 Core/node HPC system.}
+
+	\item{Developed programs in Python and Fortran for data analysis of $\sim$10TB of molecular dynamics simulation data.}
+	
+	\item{Developed Fortran code to create input data for polymers of arbitrary length for MCCCS Towhee Monte Carlo molecular simulation software}
+
+	\item{Developed novel coarse-grained models of DNA and validated models using custom Python and Fortran code, leading to improved agreement between predicted and simulated correlation statistics over prior models.}
+	
+	\item{Performed DBSCAN clustering on molecular dynamics simulation data to define regions for Markov Chain Monte Carlo simulation.}
+	
+	\item{Validated coarse-grained molecular models against predictions of statistical models such as principal component analysis (PCA) and time-lagged independent component analysis (t-ICA).}
+	
+	\item{Developed coarse-grained molecular model using PCA and an Autoencoder neural network to perform non-linear dimensionality reduction on the model parameter space.}
+	
+	\end{itemize} %{description}
+
+
+    
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Oregon}{Eugene, OR}
+      {Master of Science, Physics, GPA: 3.92}{Sep 2020 - Jun 2022}
+      
+%	   {\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial %Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+	   
+    \resumeSubheading
+      {University of Oregon}{Eugene, OR}
+      {Bachelor of Science, Mathematics and Physics, GPA: 3.83 }{Sep 2016 - June 2020}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------------
+%\section{Academic Projects}
+
+
+%-----------Awards-----------------
+%\section{Awards and Honors}
+%\begin{description}[font=$\bullet$]
+%\item {Departmental Honors in Physics} 
+%\item {Latin Honors, Cum Laude}
+%\item {Phi Beta Kappa Honors Society}
+%\end{description}
+%-------------------------------------------
+\end{document}

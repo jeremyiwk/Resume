@@ -1,0 +1,242 @@
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt} \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3  &  #4 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={$\diamond$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+  \textbf{\LARGE Jeremy Welsh}\\
+  \vspace{1pt}
+Computational Scientist\\
+
+\vspace{5pt}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+Email : \href{mailto:jeremy@micromelody.net}{jeremy@micromelody.net} & Linkedin: \href{http://www.linkedin.com/in/jeremy-welsh}{www.linkedin.com/in/jeremy-welsh}  \\
+Mobile : +1 (503) 890-1543  & Github: \href{https://github.com/jeremyiwk}{github.com/jeremyiwk}
+\end{tabular*}
+\vspace{-12pt}\\
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming Languages}{Python, C++, Julia, Fortran, Bash, R, SQL, Mathematica}
+	\resumeSubItem{Frameworks}{NumPy, Pandas, SciPy, Scikit-Learn, TensorFlow, OpenCV, OpenMP, MPI, MDTraj, Matplotlib, Numba}
+	\resumeSubItem{Software \& Tools}{Git, Jira, General Particle Tracer (GPT), GROMACS, LAMMPS, Slurm}
+\resumeSubHeadingListEnd 
+
+%
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  
+  
+    \resumeSubheading
+    {Computational Scientist}{Feb 2024 – Present}{Thermo Fisher Scientific}{Remote / Hillsboro, OR}
+    
+    \begin{itemize}[leftmargin=*,label={$\diamond$}]
+    \itemsep0em %{description} [font=$\bullet$]
+    
+    	\item {Developed scientific software in an Agile environment with a team of scientists and software engineers to model and optimize Focused Ion Beam (FIB) optics and beam interactions with materials.}
+	
+	\item {Developed workflows for discretizing FIB column elements for use in boundary element method solvers.}
+	
+	\item {Developed algorithms for internal state modeling and adaptive control of FIB systems.}
+	
+	\item {Optimized algorithms for computing numerical solutions to Hamilton-Jacobi type equations.}
+	
+	\item {Served as system administrator for local high performance computing cluster.}
+	
+	\end{itemize} %{description}
+  
+   \resumeSubheading
+    {Private Tutor}{Aug 2023 – Present}{LA Tutors 123}{Remote}
+    
+    \begin{itemize}[leftmargin=*,label={$\diamond$}]
+    \itemsep0em %{description} [font=$\bullet$]
+    
+    	\item {Provided remote math tutoring for college students in algebra, pre-calculus, and calculus.}
+	
+	\end{itemize} %{description}
+  
+    \resumeSubheading
+    {Senior Intern}{Jun 2022 – Jun 2023}{Thermo Fisher Scientific}{Remote / Hillsboro, OR}
+    
+    \begin{itemize}[leftmargin=*,label={$\diamond$}]
+    \itemsep0em %{description} [font=$\bullet$]
+    
+    	\item {Developed Python code to automate machine control for milling and imaging workflows on dual-beam (FIB-SEM) microscope systems.}
+	
+	\item {Designed experiments and computer vision image analysis to detect $\sim$100nm machining tolerances in FIB column.}
+	
+	\item {Developed Python code to measure optical aberrations in ion beam using computer vision tools from OpenCV and Skimage.}
+	
+	\item {Designed simulation components in C for ion column simulations in the General Particle Tracer software package.}
+	
+	\item {Developed scientific software in Python for parallelizing simulations and data analysis in HPC environments.}
+	
+	\item {Developed algorithms to optimize ion column designs, resulting in up to 350\% improvement in ion beam performance for some applications.}
+	
+	\item {Created data visualizations and presentations of algorithm design, experimental design, and results to a team of scientists in order to direct critical decisions about focused ion beam R\&D.}
+	
+	\end{itemize} %{description}
+      
+    \resumeSubheading
+		{Graduate Research Assistant / Graduate Teaching Assistant}{Sep 2020 – Jun 2022}
+		{University of Oregon}{Eugene, OR}
+	\begin{itemize}[leftmargin=*,label={$\diamond$}]
+	\itemsep0em  %{description} [font=$\bullet$]
+	
+	%\item{Developed theoretical models for organic macromolecules at multiple resolutions using mathematical tools from non-equilibrium statistical mechanics.}
+	
+	\item{Developed coarse-grained models of DNA and proteins, and validated models using molecular dynamics simulations (GROMACS and LAMMPS) and Monte Carlo simulations.}
+	
+	%\item{Validated theoretical models against experimental data using molecular dynamics and Monte Carlo simulation data.}
+	
+	\item{Wrote scripts in Python and Bash for performing molecular dynamics simulations using GROMACS and LAMMPS molecular dynamics software on HPC clusters at San Diego Supercomputer Center.}
+	
+	\item{Characterized performance and degree of parallelism of simulation software to determine computational resource requirement on 128 Core/node HPC system.}
+
+	\item{Developed data analysis tools in Python, Fortran, and C++ for data analysis of $\sim$10TB of molecular dynamics simulation data.}
+	
+	%\item{Wrote Fortran code to create input data for polymers of arbitrary length for MCCCS Towhee Monte Carlo molecular simulation software}
+	
+	%\item{Used clustering algorithms, such as DBSCAN, to determine coordinate regions for Markov Chain Monte Carlo simulation.}
+	
+	%\item{Validated coarse-grained molecular models against statistical models such as principal component analysis (PCA) and time-lagged independent component analysis (t-ICA).}
+	
+	\item{Mentored undergraduate and graduate research assistants on code development, simulation data analysis, and theoretical molecular biophysics.}
+	
+	\item {Instructed tutorials and labs in undergraduate physics courses on electricity and magnetism, circuitry, Newtonian mechanics, and computational chemistry.}
+	
+	
+	\end{itemize} %{description}
+	
+  
+
+
+    
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {M.S., Physics}{Sep 2020 - Jun 2022}
+      {University of Oregon, GPA: 3.92}{Eugene, OR}
+      
+%	   {\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial %Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+	   
+    \resumeSubheading
+      {B.S., Mathematics and Physics}{Sep 2016 - June 2020}
+      {University of Oregon, GPA: 3.83 }{Eugene, OR}
+  \resumeSubHeadingListEnd
+
+
+  %\resumeSubheading
+    %{Graduate Teaching Assistant}{Mar 2022 - Jun 2022}
+   % {University of Oregon}{Eugene, OR}
+    
+    %\begin{itemize}[leftmargin=*,label={$\diamond$}]
+    %\itemsep0em  %{description} [font=$\bullet$]
+	%\item {Instructed tutorials and labs in undergraduate physics courses covering electricity and magnetism, circuitry, and Newtonian mechanics.}
+
+	%\end{itemize} %{description}
+	
+	%\resumeSubheading
+    %{Library Student Assistant}{Sep 2017 - Jun 2022}
+    %{University of Oregon}{Eugene, OR}
+    
+    %\begin{itemize}[leftmargin=*,label={$\diamond$}]
+    %\itemsep0em %{description} [font=$\bullet$]
+    %\item {Provided tutoring for math and science subjects including: algebra, probability and statistics, calculus, differential equations, linear algebra, and computer science.}
+	%\item {Trained library student employees on techniques for tutoring elementary and advanced mathematical topics and concepts.}
+	%\item {Assisted library patrons with use of library services and systems.}
+	%\end{itemize} %{description}
+
+
+%-----------PROJECTS-----------------
+%\section{Academic Projects}
+
+
+%-----------Awards-----------------
+%\section{Awards and Honors}
+%\begin{description}[font=$\bullet$]
+%\item {Departmental Honors in Physics} 
+%\item {Latin Honors, Cum Laude}
+%\item {Phi Beta Kappa Honors Society}
+%\end{description}
+%-------------------------------------------
+\end{document}

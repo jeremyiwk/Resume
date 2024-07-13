@@ -1,0 +1,209 @@
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt} \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3  &  #4 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label={$\diamond$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+  \textbf{\LARGE Jeremy Welsh}\\
+Computational Scientist, Scientific Software Developer \\
+
+\vspace{5pt}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+Email : \href{mailto:jeremy@micromelody.net}{jeremy@micromelody.net} & Linkedin: \href{http://www.linkedin.com/in/jeremy-welsh}{www.linkedin.com/in/jeremy-welsh}  \\
+Mobile : +1 (503) 890-1543  & Github: \href{https://github.com/jeremyiwk}{github.com/jeremyiwk}
+\end{tabular*}
+\vspace{-12pt}\\
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming Languages}{Python, Fortran, C, C++, Bash, R, SQL, Julia, Mathematica}
+	\resumeSubItem{Frameworks}{NumPy, Pandas, SciPy, Scikit-Learn, TensorFlow, OpenCV, PyMC, MDTraj, Matplotlib, Numba}
+	\resumeSubItem{Software \& Tools}{Git, Docker, General Particle Tracer (GPT), GROMACS, LAMMPS, PyMol, ImageJ, Slurm}
+\resumeSubHeadingListEnd 
+
+%
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Senior Intern}{Jun 2022 – Jun 2023}{Thermo Fisher Scientific}{Remote}
+    
+    \begin{itemize}[leftmargin=*,label={$\diamond$}]
+    \itemsep0em %{description} [font=$\bullet$]
+    
+    	\item {Wrote Python code to automate milling and imaging procedures on dual-beam FIB-SEM systems.}
+	
+	\item {Used Python computer vision libraries such as OpenCV and Skimage for image analysis on FIB and SEM images to perform measurements and data analysis.}
+	
+	\item {Contributed to a software tool (Python) for performing General Particle Tracer (GPT) simulations and data processing/analysis in a Linux HPC environment.}
+	
+	\item{Developed beam sharpness metrics to characterize performance for novel FIB column designs.}
+	
+	\item {Developed Python code to optimize novel FIB column designs, resulting in up to 350\% improvement in FIB performance for some applications.}
+	
+	\item {Used Python libraries such as NumPy, SciPy, Pandas, Matplotlib, and Seaborn for data analysis, visualization, and presentation to a team of scientists in order to inform decisions on technology development.}
+	
+	\end{itemize} %{description}
+      
+    \resumeSubheading
+		{Graduate Research Assistant}{Sep 2020 – Jun 2022}
+		{University of Oregon}{Eugene, OR}
+	\begin{itemize}[leftmargin=*,label={$\diamond$}]
+	\itemsep0em  %{description} [font=$\bullet$]
+	
+	%\item{Developed theoretical models for organic macromolecules at multiple resolutions using mathematical tools from non-equilibrium statistical mechanics.}
+	
+	\item{Developed coarse-grained models of DNA and proteins, and validated models using molecular dynamics simulations (GROMACS and LAMMPS) and Monte Carlo simulations.}
+	
+	%\item{Validated theoretical models against experimental data using molecular dynamics and Monte Carlo simulation data.}
+	
+	\item{Wrote scripts in Python and Bash for performing molecular dynamics simulations using GROMACS and LAMMPS molecular dynamics software on HPC clusters at San Diego Supercomputer Center.}
+	
+	\item{Characterized performance and degree of parallelism of simulation software to determine computational resource requirement on 128 Core/node HPC system.}
+
+	\item{Developed data analysis tools in Python, Fortran, and C++ for data analysis of $\sim$10TB of molecular dynamics simulation data.}
+	
+	%\item{Wrote Fortran code to create input data for polymers of arbitrary length for MCCCS Towhee Monte Carlo molecular simulation software}
+	
+	\item{Used clustering algorithms, such as DBSCAN, to determine coordinate regions for Markov Chain Monte Carlo simulation.}
+	
+	\item{Validated coarse-grained molecular models against statistical models such as principal component analysis (PCA) and time-lagged independent component analysis (t-ICA).}
+	
+	\item{Mentored undergraduate and graduate research assistants on code development, simulation data analysis, and theoretical molecular biophysics.}
+	
+	
+	\end{itemize} %{description}
+	
+    \resumeSubheading
+    {Graduate Teaching Assistant}{Mar 2022 - Jun 2022}
+    {University of Oregon}{Eugene, OR}
+    
+    \begin{itemize}[leftmargin=*,label={$\diamond$}]
+    \itemsep0em  %{description} [font=$\bullet$]
+	\item {Instructed tutorials and labs in undergraduate physics courses covering electricity and magnetism, circuitry, and Newtonian mechanics.}
+
+	\end{itemize} %{description}
+	
+	\resumeSubheading
+    {Library Student Assistant}{Sep 2017 - Jun 2022}
+    {University of Oregon}{Eugene, OR}
+    
+    \begin{itemize}[leftmargin=*,label={$\diamond$}]
+    \itemsep0em %{description} [font=$\bullet$]
+    \item {Provided tutoring for math and science subjects including: algebra, probability and statistics, calculus, differential equations, linear algebra, and computer science.}
+	%\item {Trained library student employees on techniques for tutoring elementary and advanced mathematical topics and concepts.}
+	\item {Assisted library patrons with use of library services and systems.}
+	\end{itemize} %{description}
+
+
+    
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {M.S., Physics}{Sep 2020 - Jun 2022}
+      {University of Oregon, GPA: 3.92}{Eugene, OR}
+      
+%	   {\scriptsize \textit{Courses: Operating Systems, Analysis Of Algorithms, Artificial %Intelligence, Machine Learning, Probability and Statistics and Network Security.}}
+	   
+    \resumeSubheading
+      {B.S., Mathematics and Physics}{Sep 2016 - June 2020}
+      {University of Oregon, GPA: 3.83 }{Eugene, OR}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------------
+%\section{Academic Projects}
+
+
+%-----------Awards-----------------
+%\section{Awards and Honors}
+%\begin{description}[font=$\bullet$]
+%\item {Departmental Honors in Physics} 
+%\item {Latin Honors, Cum Laude}
+%\item {Phi Beta Kappa Honors Society}
+%\end{description}
+%-------------------------------------------
+\end{document}
+
+
+
+
+

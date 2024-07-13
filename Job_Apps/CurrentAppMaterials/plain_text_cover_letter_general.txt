@@ -1,0 +1,34 @@
+
+I am very excited to be applying for this position because it represents a great opportunity to expand
+and hone my current skillset as a scientist. My greatest intellectual interest is in
+computational science and I have been lucky enough to leverage this interest into a career path.
+I believe my scientific skillset, work experience, and interests are particularly well suited to the
+demands of this position. My experience with computational physics lies in two primary domains:
+molecular simulations of complex fluids, and simulations of charged particle optical systems.
+
+As a graduate student at the University of Oregon, my research focused on using computational
+methods to build models of individual macromolecules or ensembles of macromolecules using a
+Langevin equation or the Ornstein–Zernike equation, respectively. In general, this required developing
+a theoretical model and using data from molecular dynamics (MD) simulations to calculate or
+validate statistics predicted by the model. To generate simulation data, I used either GROMACS
+or LAMMPS simulation software to run parallelized MD simulations on a remote high performance
+computing platform. Processing simulation data required developing reusable and scalable code for
+data analysis in Python and Fortran. This work demanded a strong understanding of computational
+methods for modeling many-particle systems, applying these methods in a parallel computing
+environment, and contributing to a repository of software tools for data analysis and visualization.
+
+At Thermo Fisher Scientific, I am currently working with the Focused Ion Beam (FIB) research
+group using computational methods to study novel FIB technologies. I have worked on several
+projects at Thermo Fisher, the largest of which is a computational modeling study to optimize FIB
+column elements for a particular column design. This project has involved running charged particle
+simulations in General Particle Tracer (GPT) on a local high performance computing cluster,
+and performing analyses on the simulation data which yield experimentally verifiable performance
+predictions. Performing accurate and realistic simulations in GPT requires an understanding of the
+boundary element method for computing electromagnetic fields, and writing models of FIB column
+elements in C to create the simulation environment. The simulation and data analysis workflow
+required for this project has been optimized using a proprietary software package written in Python,
+to which I have also made permanent contributions.
+
+My primary professional goal is to continue my career as a scientist. I am optimistic
+that I can achieve this at LLNL, since my technical experience applies so
+thoroughly to this position and others. Thank you for your time. I look forward to hearing from you.

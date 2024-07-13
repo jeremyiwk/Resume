@@ -1,0 +1,22 @@
+Wrote Python scripts to automate milling, imaging, and data collection procedures on dual-beam FIB-SEM (focused ion beam - scanning electron microscope) systems.
+Used Python computer vision libraries such as OpenCV and Skimage for image analysis on FIB-SEM images to measure machining tolerances, optical aberrations, and beam sharpness.
+Contributed to a software tool (Python) for performing parallel General Particle Tracer (GPT) simulations Linux HPC environment, and for data preprocessing and analysis.
+Developed statistical metrics to characterize performance for novel FIB column designs.
+Developed Python code to optimize novel FIB column designs, resulting in up to 350% improvement in FIB performance for some applications.
+Used Python libraries such as NumPy, SciPy, Pandas, Matplotlib, and Seaborn for data analysis, visualization, and presentation to a team of scientists in order to inform decisions on technology development.
+
+
+
+Developed and validated coarse-grained models for biological macromolecules using molecular dynamics simulations, Monte-Carlo simulations, and stochastic differential equations.
+Performed and analyzed molecular dynamics simulations using GROMACS and LAMMPS software on HPC clusters at San Diego Supercomputer Center.
+Characterized performance and the degree of parallelism of molecular dynamics simulations to determine computational resources requirement on 128 Core/node HPC system.
+Wrote code in Python and Fortran for statistical analysis of  10TB of simulation data.
+Validated coarse-grained molecular models against predictions of statistical models such as principal component analysis (PCA) and time-lagged independent component analysis (t-ICA).
+Mentored undergraduate and graduate research assistants on projects related to molecular coarse-graining schemes and simulation data analysis.
+
+Instructed and graded coursework for undergraduate physics courses covering electricity and magnetism, circuitry, and Newtonian mechanics.
+
+
+Provided group tutoring and private tutoring for library patrons in math and science subjects including: elementary algebra, probability, statistics, discrete math, calculus, differential equations, linear algebra, partial differential equations, chemistry, and physics.
+Trained library student employees on techniques for tutoring elementary and advanced mathematical topics and concepts.
+
